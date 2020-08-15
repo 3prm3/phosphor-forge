@@ -1,5 +1,5 @@
 
-![Project icon](https://github.com/thepwrtank18/phosphor-forge/blob/1.16.x/dev/doc/logo.png)
+![Project icon](https://github.com/thepwrtank18/phosphor-forge/blob/1.16.x-dev/doc/logo.png)
 
 # Phosphor for 1.16
 ![GitHub license](https://img.shields.io/github/license/thepwrtank18/phosphor-forge.svg)
