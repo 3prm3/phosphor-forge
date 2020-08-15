@@ -13,12 +13,6 @@ It works on **both the client and server**, and can be installed on servers **wi
 The mod is designed to be as minimal as possible in the changes it makes, and as such, does not modify the light model or interfaces of vanilla Minecraft. Because of this, Phosphor should be compatible
 with many Minecraft mods (so long as they do not make drastic changes to how the lighting engine works.) If you've ran into a compatibility problem, please open an issue!
 
-### Support development
-
-You can help buy me food and support development of my mods by [making a monthly pledge to my Patreon!](https://patreon.com/jellysquid) You'll also gain some special perks, such as prioritized support on [my Discord server](https://discord.gg/kcb57Cm).
-
-<a href="https://www.patreon.com/bePatron?u=824442"><img src="https://github.com/jellysquid3/phosphor-forge/raw/1.15.x/dev/doc/patreon.png" width="200"></a>
-
 ### License
 
 Phosphor is licensed under GNU LGPLv3, a free and open-source license. For more information, please see the [license file](https://github.com/thepwrtank18/phosphor-forge/blob/1.15.x/dev/LICENSE).
