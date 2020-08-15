@@ -1,5 +1,5 @@
 
-![Project icon](https://github.com/thepwrtank18/phosphor-forge/blob/1.15.x/dev/doc/logo.png)
+![Project icon](https://github.com/thepwrtank18/phosphor-forge/blob/1.16.x/dev/doc/logo.png)
 
 # Phosphor for 1.16
 ![GitHub license](https://img.shields.io/github/license/thepwrtank18/phosphor-forge.svg)
@@ -15,4 +15,4 @@ with many Minecraft mods (so long as they do not make drastic changes to how the
 
 ### License
 
-Phosphor is licensed under GNU LGPLv3, a free and open-source license. For more information, please see the [license file](https://github.com/thepwrtank18/phosphor-forge/blob/1.15.x/dev/LICENSE).
+Phosphor is licensed under GNU LGPLv3, a free and open-source license. For more information, please see the [license file](https://github.com/thepwrtank18/phosphor-forge/blob/1.16.x/dev/LICENSE).
