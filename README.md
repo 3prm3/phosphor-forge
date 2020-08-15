@@ -21,4 +21,4 @@ You can help buy me food and support development of my mods by [making a monthly
 
 ### License
 
-Phosphor is licensed under GNU LGPLv3, a free and open-source license. For more information, please see the [license file](https://github.com/thepwrtank18/phosphor-forge/blob/master/LICENSE.txt).
+Phosphor is licensed under GNU LGPLv3, a free and open-source license. For more information, please see the [license file](https://github.com/thepwrtank18/phosphor-forge/blob/1.15.x/dev/LICENSE).
