@@ -57,7 +57,7 @@ public abstract class MixinSectionLightStorage<M extends LightDataMap<M>> implem
     private LongSet noLightSections;
 
     @Shadow
-    protected abstract void func_215524_j(long blockPos);
+    protected abstract void addSection(long blockPos);
 
     @SuppressWarnings("unused")
     @Shadow
@@ -153,7 +153,7 @@ public abstract class MixinSectionLightStorage<M extends LightDataMap<M>> implem
                 this.cachedLightData.setArray(id, this.getOrCreateArray(id));
 
                 this.dirtyCachedSections.add(id);
-                this.func_215524_j(id);
+                this.addSection(id);
 
                 int x = BlockPos.unpackX(id);
                 int y = BlockPos.unpackY(id);

@@ -192,7 +192,7 @@ public abstract class MixinSkyLightEngine extends LightEngine<SkyLightStorage.St
         // Skylight optimization: Try to find bottom-most non-empty chunk
         if (localY == 0) {
             while (!this.storage.hasSection(SectionPos.withOffset(chunkId, 0, -chunkOffsetY - 1, 0))
-                    && (this.storage.func_215550_a(chunkY - chunkOffsetY - 1))) {
+                    && (this.storage.isAboveBottom(chunkY - chunkOffsetY - 1))) {
                 ++chunkOffsetY;
             }
         }

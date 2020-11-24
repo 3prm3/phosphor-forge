@@ -91,7 +91,7 @@ minecraft {
 
 dependencies {
     //to change the versions see the gradle.properties file
-    minecraft "net.minecraftforge:forge:${project.forge_version}"
+    minecraft "${project.forge_version}"
 
     compile "org.spongepowered:mixin:0.8"
 }

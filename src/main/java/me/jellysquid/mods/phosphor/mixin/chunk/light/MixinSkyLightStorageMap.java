@@ -10,19 +10,19 @@ import org.spongepowered.asm.mixin.Shadow;
 @Mixin(SkyLightStorage.StorageMap.class)
 public class MixinSkyLightStorageMap implements SkyLightStorageMapAccess {
     @Shadow
-    private int field_215652_b;
+    private int minY;
 
     @Shadow
     @Final
-    private Long2IntOpenHashMap field_215653_c;
+    private Long2IntOpenHashMap surfaceSections;
 
     @Override
     public int getDefaultHeight() {
-        return this.field_215652_b;
+        return this.minY;
     }
 
     @Override
     public Long2IntOpenHashMap getHeightMap() {
-        return this.field_215653_c;
+        return this.surfaceSections;
     }
 }
